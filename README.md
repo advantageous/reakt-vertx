@@ -10,9 +10,9 @@ Added Promises and simplified streaming to Vert.x
 
 
 You can also use replay promises, all promises, any promises, and other
-features of Reakt to simplify async, reactive Vertx/Java development.
+features of [Reakt](http://advantageous.github.io/reakt) to simplify async, reactive Vertx/Java development.
 
-Reakt gets used by [QBit](http://advantageous.github.io/qbit/), and Conekt.
+[Reakt](http://advantageous.github.io/reakt) gets used by [QBit](http://advantageous.github.io/qbit/), and Conekt.
 
 #### Related projects
 * [QBit Reactive Microservices](http://advantageous.github.io/qbit/)
