@@ -14,6 +14,8 @@ features of [Reakt](http://advantageous.github.io/reakt) to simplify async, reac
 
 [Reakt](http://advantageous.github.io/reakt) gets used by [QBit](http://advantageous.github.io/qbit/), and Conekt.
 
+[Reakt Vertx Website](http://advantageous.github.io/reakt-vertx)
+
 #### Related projects
 * [QBit Reactive Microservices](http://advantageous.github.io/qbit/)
 * [Reakt Reactive Java](http://advantageous.github.io/reakt)
