@@ -12,6 +12,9 @@ final Handler<AsyncResult<Employee>> asyncResultHandler = ReaktVertx.convertProm
 You can also use replay promises, all promises, any promises, and other
 features of [Reakt](http://advantageous.github.io/reakt) to simplify async, reactive Vertx/Java development.
 
+You can see a [Vert.x event bus example in the wiki](https://github.com/advantageous/reakt-vertx/wiki/Reakt-Vertx-in-Action). If you are new to Reakt,
+stop by [Reakt Website](http://advantageous.github.io/reakt) and the [Reakt Wiki](https://github.com/advantageous/reakt/wiki) to learn more about Reakt promises.
+
 
 ## Getting Started
 #### maven
