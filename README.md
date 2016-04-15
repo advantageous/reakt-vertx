@@ -42,6 +42,6 @@ compile 'io.advantageous.reakt:reakt-vertx:2.1.0.RELEASE'
 * [Reakt Reactive Java](http://advantageous.github.io/reakt)
 * [Reakt Guava Bridge](http://advantageous.github.io/reakt-guava/)
 * [QBit Extensions](https://github.com/advantageous/qbit-extensions)
-* [Czar Maker Consul](http://advantageous.github.io/czar-maker-consul/)
-* [Czar Maker](http://advantageous.github.io/czar-maker/)
+* [Elekt Consul](http://advantageous.github.io/elekt-consul/)
+* [Elekt](http://advantageous.github.io/elekt/)
 * [Reactive Microservices](http://www.mammatustech.com/reactive-microservices)
