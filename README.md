@@ -1,5 +1,7 @@
 # Reakt Vertx
-Added Promises and simplified streaming to Vert.x
+Added Promises and simplified streaming to Vert.x.
+Check out the [Reakt Vertx Website](http://advantageous.github.io/reakt-vertx).
+
 
 ```java
 final Promise<Employee> promise = Promises.<Employee>promise();
