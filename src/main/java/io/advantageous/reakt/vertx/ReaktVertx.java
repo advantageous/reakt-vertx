@@ -10,8 +10,9 @@ public class ReaktVertx {
 
     /**
      * Works with both Reakt promises and Reakt callbacks
+     *
      * @param promise promise
-     * @param <T> type of result
+     * @param <T>     type of result
      * @return vertx handler
      */
     public static <T> Handler<AsyncResult<T>> convertPromise(final Promise<T> promise) {
@@ -20,8 +21,9 @@ public class ReaktVertx {
 
     /**
      * Works with both Reakt promises and Reakt callbacks
+     *
      * @param callback callback
-     * @param <T> type of result
+     * @param <T>      type of result
      * @return vertx handler
      */
     public static <T> Handler<AsyncResult<T>> convertCallback(final Callback<T> callback) {

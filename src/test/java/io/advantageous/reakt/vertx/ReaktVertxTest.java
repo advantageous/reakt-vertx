@@ -9,19 +9,9 @@ import org.junit.Test;
 
 import java.util.concurrent.atomic.AtomicReference;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 public class ReaktVertxTest {
-
-    public static class Employee {
-        private final String id;
-
-        public Employee(String id) {
-            this.id = id;
-        }
-    }
 
     @Test
     public void testConvertPromiseSuccess() throws Exception {
@@ -66,7 +56,6 @@ public class ReaktVertxTest {
         assertEquals("Bob", ref.get().get().id);
     }
 
-
     @Test
     public void testConvertPromiseFailure() throws Exception {
 
@@ -107,5 +96,13 @@ public class ReaktVertxTest {
         assertNotNull(ref.get());
         assertEquals("bad stuff", promise.cause().getMessage());
         assertEquals("bad stuff", ref.get().getMessage());
+    }
+
+    public static class Employee {
+        private final String id;
+
+        public Employee(String id) {
+            this.id = id;
+        }
     }
 }
