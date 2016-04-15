@@ -2,10 +2,10 @@
 Added Promises and simplified streaming to Vert.x
 
 ```java
-        final Promise<Employee> promise = Promises.<Employee>promise();
-        promise.thenExpect(this::handleResult).catchError(this::handleError);
-        /** Convert the Reakt promise to a Vert.x asyncResultHandler */
-        final Handler<AsyncResult<Employee>> asyncResultHandler = ReaktVertx.convertPromise(promise);
+final Promise<Employee> promise = Promises.<Employee>promise();
+promise.thenExpect(this::handleResult).catchError(this::handleError);
+/** Convert the Reakt promise to a Vert.x asyncResultHandler */
+final Handler<AsyncResult<Employee>> asyncResultHandler = ReaktVertx.convertPromise(promise);
 ```
 
 
