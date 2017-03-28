@@ -16,7 +16,7 @@ public class ReaktVertx {
      * @return vertx handler
      */
     public static <T> Handler<AsyncResult<T>> convertPromise(final Promise<T> promise) {
-        return convertCallback(promise);
+        return convertCallback(promise.asHandler());
     }
 
     /**

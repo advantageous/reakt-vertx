@@ -47,10 +47,10 @@ public class ReaktVertxTest {
         asyncResultHandler.handle(asyncResult);
 
 
-        assertTrue(promise.complete());
-        assertTrue(promise.success());
-        assertNotNull(promise.get());
-        assertEquals("Bob", promise.get().id);
+        assertTrue(promise.asHandler().complete());
+        assertTrue(promise.asHandler().success());
+        assertNotNull(promise.asHandler().get());
+        assertEquals("Bob", promise.asHandler().get().id);
         assertNotNull(ref.get());
         assertTrue(ref.get().isPresent());
         assertEquals("Bob", ref.get().get().id);
@@ -90,11 +90,11 @@ public class ReaktVertxTest {
         asyncResultHandler.handle(asyncResult);
 
 
-        assertTrue(promise.complete());
-        assertTrue(promise.failure());
-        assertNotNull(promise.cause());
+        assertTrue(promise.asHandler().complete());
+        assertTrue(promise.asHandler().failure());
+        assertNotNull(promise.asHandler().cause());
         assertNotNull(ref.get());
-        assertEquals("bad stuff", promise.cause().getMessage());
+        assertEquals("bad stuff", promise.asHandler().cause().getMessage());
         assertEquals("bad stuff", ref.get().getMessage());
     }
 
